@@ -1,0 +1,150 @@
+
+body
+{
+    background-image: url("BACK5.jpg");
+    background-repeat: no-repeat; 
+    height: 100vh;
+    background-position:top;
+    background-size: cover;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+   
+}
+.table
+{
+    z-index: 1;
+}
+/* img{
+    opacity: 0.2;
+} */
+.container-fluid
+{
+    padding: 4% 15% 7%;
+}
+.navbar 
+{
+   margin-bottom: 3%;
+   
+}
+.navbar-brand
+{
+     font-family: 'Ubuntu', sans-serif;
+     font-size: x-large;
+     margin-left: 3%;
+}
+.navbar-nav
+{
+    margin-left: auto;
+}
+.nav-item
+{
+    padding: 0 2.5rem;
+}
+.game
+{
+    font-family: 'Ubuntu', sans-serif;
+     font-size: 500%;
+     margin-top: 8%;
+     margin-left: 5%;
+     color: beige;
+}
+
+@media (max-width:1028px) {
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        transform: rotate(0);
+    }
+    .list
+    {
+        text-align: left;
+    }
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10rem bold;
+    line-height: 1.5;
+}
+.download-button
+{
+    margin: 5% 3% 7% 0 ;
+}
+.container-fluid
+{
+    padding: 4% 15% 7%;
+}
+.play
+{
+    margin-top: 10%;
+    margin-left: 16%;
+
+}
+.game
+{
+    font-family: 'Ubuntu', sans-serif;
+     font-size: 500%;
+     margin-top: 8%;
+     margin-left: 5%;
+     color: beige;
+}
+.game1
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 200%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: beige;
+}
+.list
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100%;
+    margin-top: 3%;
+    margin-left: 8%;
+    color: beige;
+}
+@media (max-width:728px) {
+    /* #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        transform: rotate(0);
+    } */
+    .list
+    {
+        text-align: left;
+        font-size: 80%;
+    }
+    .game
+    {
+        font-size: 350%;
+    }
+}
+@media (max-width:588px) {
+    /* #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        transform: rotate(0);
+    } */
+    .list
+    {
+        margin-left: 3%;
+        text-align: left;
+        font-size: 50%;
+    }
+    .game
+    {
+        margin-left: 2%;
+        text-align: left;
+        font-size: 200%;
+    }
+}
