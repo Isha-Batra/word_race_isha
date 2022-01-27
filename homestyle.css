@@ -1,0 +1,325 @@
+
+body
+{
+    background-image: url("2022-01-26\ \(7\).png");
+    background-repeat: no-repeat; 
+    height: 1vh;
+    background-position:top;
+    background-size: cover;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+   
+}
+.table
+{
+    z-index: 1;
+}
+/* img{
+    opacity: 0.2;
+} */
+.container-fluid
+{
+    padding: 4% 15% 7%;
+}
+.navbar 
+{
+   margin-bottom: 3%;
+   
+}
+.navbar-brand
+{
+     font-family: 'Ubuntu', sans-serif;
+     font-size: x-large;
+     margin-left: 3%;
+}
+.navbar-nav
+{
+    margin-left: auto;
+}
+.nav-item
+{
+    padding: 0 2.5rem;
+}
+.game
+{
+    font-family: 'Ubuntu', sans-serif;
+     font-size: 500%;
+     margin-top: 8%;
+     margin-left: 5%;
+     color: beige;
+}
+.play
+{
+    /* margin-left: -1000%;
+    margin-top:0%; */
+    z-index: -1;
+     opacity: 0; 
+}
+.play1
+    {
+        margin-left: 40%;
+        margin-top:0%;
+        /* z-index: -1;
+         opacity: 0; */
+    }
+
+@media (max-width:1028px) {
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        transform: rotate(0);
+    }
+    .list
+    {
+        text-align: left;
+    }
+    .play
+    {
+        margin-left: -1000%;
+        margin-top:0%;
+        z-index: -1;
+         opacity: 0; 
+    }
+    
+    i
+    {
+        margin-left: -80%;
+    margin-top: -5%;
+    }
+    .play1
+    {
+        margin-left: 155%;
+        margin-top:-50%;
+        /* z-index: -1;
+         opacity: 0; */
+    }
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10rem bold;
+    line-height: 1.5;
+}
+.download-button
+{
+    margin: 5% 3% 7% 0 ;
+}
+.container-fluid
+{
+    padding: 4% 15% 7%;
+}
+.play
+{
+    margin-top: 10%;
+    margin-left: 20%;
+/* z-index: -1;
+opacity: 0; */
+}
+.game
+{
+    font-family: 'Ubuntu', sans-serif;
+     font-size: 500%;
+     margin-top: 8%;
+     margin-left: 5%;
+     color: beige;
+     visibility: hidden;
+}
+.game1
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 200%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: beige;
+}
+.list
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100%;
+    margin-top: 3%;
+    margin-left: 8%;
+    color: beige;
+}
+@media (max-width:828px) {
+    /* #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        transform: rotate(0);
+    } */
+    .list
+    {
+        text-align: left;
+        font-size: 80%;
+    }
+    .game
+    {
+        font-size: 350%;
+    }
+    .play
+    {
+        margin-left: -60%;
+        margin-top: -160%;
+        z-index: -1;
+         opacity: 0; 
+    }
+    .play1
+    {
+        margin-left: 155%;
+        margin-top:-50%;
+        /* z-index: -1;
+         opacity: 0; */
+    }
+}
+@media (max-width:728px) {
+    /* #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        transform: rotate(0);
+    } */
+    .list
+    {
+        text-align: left;
+        font-size: 80%;
+    }
+    .game
+    {
+        font-size: 350%;
+    }
+    .play
+    {
+        margin-left: -60%;
+        margin-top: -160%;
+        z-index: -1;
+         opacity: 0; 
+    }
+    .play1
+    {
+        margin-left: 155%;
+        margin-top:-50%;
+        /* z-index: -1;
+         opacity: 0; */
+    }
+}
+@media (max-width:588px) {
+    /* #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        transform: rotate(0);
+    } */
+    .list
+    {
+        margin-left: 3%;
+        text-align: left;
+        font-size: 50%;
+    }
+    .game
+    {
+        margin-left: 2%;
+        text-align: left;
+        font-size: 200%;
+    }
+    .play
+    {
+        margin-left: -60%;
+        margin-top: -16rem;
+        z-index: -1;
+         opacity: 0; 
+    }
+    .play1
+    {
+        margin-left: 155%;
+        margin-top:-50%;
+        /* z-index: -1;
+         opacity: 0; */
+    }
+}
+@media (max-width:530px) {
+    body
+{
+background-image: url("2022-01-26\ \(8\).png");
+background-repeat: no-repeat; 
+height: 1vh;
+background-position:top;
+background-size: cover;
+width: 100%;
+opacity: 1;
+z-index: -1;
+
+}
+.game
+{
+    font-family: 'Ubuntu', sans-serif;
+     font-size: 250%;
+     margin-top: -5%;
+     margin-left: 15%;
+     color: rgb(15, 15, 15);
+     visibility: visible;
+}
+.play
+{
+    margin-top: 3%;
+    margin-left: 3%;
+z-index: -1;
+opacity: 0;
+}
+.play1
+{
+    margin-left: 155%;
+    margin-top:-50%;
+    /* z-index: -1;
+     opacity: 0; */
+}
+}
+@media (max-width:430px) {
+    body
+{
+background-image: url("2022-01-27\ \(1\).png");
+background-repeat: no-repeat; 
+height: 1vh;
+background-position:top;
+background-size: cover;
+width: 100%;
+opacity: 1;
+z-index: -1;
+
+}
+.play
+{
+    margin-top: 5%;
+    margin-left: 3%;
+z-index: -1;
+opacity: 0;
+}
+
+.game
+{
+    font-family: 'Ubuntu', sans-serif;
+     font-size: 250%;
+     margin-top: 0%;
+     margin-left: 15%;
+     color: rgb(15, 15, 15);
+     visibility: hidden;
+}
+.play1
+{
+    margin-left: 55%;
+color: black;
+font-size: xx-large;
+margin-top: 140%;
+padding-top: 100%;
+
+}
+
+}
